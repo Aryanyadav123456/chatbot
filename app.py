@@ -41,10 +41,17 @@ st.markdown("""
 
     .title {
         text-align: center;
-        font-size: 48px;
+        font-size: 42px;
         font-weight: 700;
-        color: #1a1a1a;
+        color: #004080;
         margin-bottom: 20px;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 20px;
+        color: #444444;
+        margin-bottom: 30px;
     }
 
     .stTextInput input {
@@ -54,7 +61,7 @@ st.markdown("""
     }
 
     .stButton button {
-        background-color: #0052cc;
+        background-color: #004080;
         color: white;
         font-weight: bold;
         border-radius: 25px;
@@ -63,20 +70,20 @@ st.markdown("""
     }
 
     .stButton button:hover {
-        background-color: #003d99;
-        box-shadow: 0 0 10px rgba(0, 82, 204, 0.3);
+        background-color: #003366;
+        box-shadow: 0 0 10px rgba(0, 64, 128, 0.3);
     }
 
     .stSpinner {
-        color: #0052cc;
+        color: #004080;
     }
     </style>
 """, unsafe_allow_html=True)
 
 # --- 🖼️ Logo & Title ---
-st.image("tech intelleon.png", width=250)
-st.markdown("<div class='title'>TechIntelleon AI Assistant</div>", unsafe_allow_html=True)
-st.markdown("### 🤖 Ask anything about the TechIntelleon website")
+st.image("sreyas_logo.png", width=220)  # Replace with actual logo if available
+st.markdown("<div class='title'>Sreyas College AI Assistant</div>", unsafe_allow_html=True)
+st.markdown("<div class='subtitle'>🤖 Ask anything about the Sreyas Institute of Engineering & Technology website</div>", unsafe_allow_html=True)
 
 # --- 🗨️ Chat Interface ---
 url = "https://sreyas.ac.in/"
