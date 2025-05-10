@@ -79,7 +79,7 @@ st.markdown("<div class='title'>TechIntelleon AI Assistant</div>", unsafe_allow_
 st.markdown("### 🤖 Ask anything about the TechIntelleon website")
 
 # --- 🗨️ Chat Interface ---
-url = "https://techintelleon.com/"
+url = "https://sreyas.ac.in/"
 question = st.text_input("🔍 Enter your question here:")
 
 if st.button("Ask the AI"):
